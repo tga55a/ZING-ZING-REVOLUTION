@@ -1,4 +1,3 @@
-package ZingZingRevolution;
 public class Boohbah {
 
     private String name = "";
@@ -21,3 +20,4 @@ public class Boohbah {
         return getName() + " performs " + getDanceMove();
     }
 }
+

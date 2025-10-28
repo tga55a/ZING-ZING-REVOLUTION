@@ -1,5 +1,3 @@
-package ZingZingRevolution;
-
 public class BoohbahDanceTest {
     public static void main(String[] args) {
         
@@ -16,3 +14,4 @@ public class BoohbahDanceTest {
 
     }
 }
+

@@ -1,4 +1,5 @@
 public class BoohbahDanceTest {
+
     public static void main(String[] args) {
         
 
@@ -11,7 +12,6 @@ public class BoohbahDanceTest {
 
         System.out.println("Original Routine:\n" + Routine.buildRoutine());
         System.out.println("Modified Routine:\n" + Routine.modifyRoutine());
-
+        System.out.println("Remixed Routine:\n" + Routine.remixRoutine());
     }
 }
-

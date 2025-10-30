@@ -1,3 +1,5 @@
+package ZingZingRevolution;
+
 public class DanceRoutine {
     
     private Boohbah[] boohbahs;
@@ -19,5 +21,15 @@ public class DanceRoutine {
     public String modifyRoutine() {
         return buildRoutine().replace("performs", "dances to");
     }
-}
 
+    public String remixRoutine() {
+        
+        StringBuilder buildRoutine = new StringBuilder(this.buildRoutine());
+        buildRoutine.insert(0, "---REMIX---\n");
+        buildRoutine.delete(buildRoutine.length() - 1, buildRoutine.length());
+        buildRoutine.append("\nBackwards Boohbah Shuffle!");
+        buildRoutine.reverse();
+
+        return buildRoutine.toString();
+    }
+}

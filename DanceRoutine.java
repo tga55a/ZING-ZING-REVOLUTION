@@ -1,5 +1,3 @@
-package ZingZingRevolution;
-
 public class DanceRoutine {
     
     private Boohbah[] boohbahs;
@@ -33,3 +31,4 @@ public class DanceRoutine {
         return buildRoutine.toString();
     }
 }
+
